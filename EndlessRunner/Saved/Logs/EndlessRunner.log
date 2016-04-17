@@ -1,0 +1,732 @@
+﻿Log file open, 04/17/16 21:11:22
+LogInit:Display: Running engine for game: EndlessRunner
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(2037503153) SRandInit(2037503159).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.069988
+LogInit: Version: 4.11.1-2934540+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr  6 2016 02:14:16
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.04.17-18.11.22:518][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.17-18.11.22:518][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.17-18.11.22:523][  0]LogInit: Computer: SHANE-PC
+[2016.04.17-18.11.22:523][  0]LogInit: User: Shane
+[2016.04.17-18.11.22:523][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.04.17-18.11.22:523][  0]LogInit: High frequency timer resolution =3.118222 MHz
+[2016.04.17-18.11.22:524][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.04.17-18.11.22:524][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.17-18.11.22:524][  0]LogMemory: Process Physical Memory: 312.34 MB used, 312.34 MB peak
+[2016.04.17-18.11.22:524][  0]LogMemory: Process Virtual Memory: 316.61 MB used, 316.61 MB peak
+[2016.04.17-18.11.22:524][  0]LogMemory: Physical Memory: 3333.66 MB used, 8156.89 MB total
+[2016.04.17-18.11.22:524][  0]LogMemory: Virtual Memory: 621.06 MB used, 8388608.00 MB total
+[2016.04.17-18.11.22:570][  0]LogTextLocalizationManager: No translations for ('he-IL') exist, falling back to 'en' for localization and internationalization data.
+[2016.04.17-18.11.22:981][  0]LogD3D11RHI: D3D11 adapters:
+[2016.04.17-18.11.22:986][  0]LogD3D11RHI:    0. 'AMD Radeon HD 6800 Series' (Feature Level 11_0)
+[2016.04.17-18.11.22:986][  0]LogD3D11RHI:       1011MB of dedicated video memory, 0MB of dedicated system memory, and 3822MB of shared system memory, 1 output[s]
+[2016.04.17-18.11.22:986][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.04.17-18.11.22:992][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.04.17-18.11.22:992][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 6800 Series
+[2016.04.17-18.11.22:992][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.04.17-18.11.22:992][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.04.17-18.11.22:992][  0]LogRHI: Texture pool is 708 MB (70% of 1011 MB)
+[2016.04.17-18.11.22:995][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.04.17-18.11.23:006][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Intermediate/Shaders/WorkingDirectory/4636/).
+[2016.04.17-18.11.23:006][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Shane/AppData/Local/Temp/UnrealShaderWorkingDir/2E7248B84F07A4EE371FE5A494DECF83/'.
+[2016.04.17-18.11.23:006][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.17-18.11.24:047][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.17-18.11.24:052][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.17-18.11.24:057][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.17-18.11.24:061][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.17-18.11.24:066][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.17-18.11.24:070][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.17-18.11.24:073][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.17-18.11.24:075][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.17-18.11.24:078][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.17-18.11.24:081][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.17-18.11.24:084][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.17-18.11.24:089][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.17-18.11.24:089][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.17-18.11.24:090][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.17-18.11.24:106][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.17-18.11.24:108][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.04.17-18.11.24:111][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.17-18.11.24:113][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.17-18.11.24:116][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.17-18.11.24:116][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.17-18.11.24:191][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.17-18.11.24:235][  0]LogDerivedDataCache: Loaded boot cache 0.04s 46MB C:/Users/Shane/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.17-18.11.24:235][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Shane/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.04.17-18.11.24:235][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.17-18.11.24:235][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.17-18.11.24:235][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.17-18.11.24:235][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.17-18.11.24:250][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.17-18.11.24:261][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shane/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.17-18.11.24:427][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.17-18.11.24:428][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.04.17-18.11.24:452][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.04.17-18.11.24:595][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.17-18.11.24:595][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.17-18.11.24:595][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.04.17-18.11.24:825][  0]LogUObjectArray: 27678 objects as part of root set at end of initial load.
+[2016.04.17-18.11.24:825][  0]LogUObjectAllocator: 5591384 out of 0 bytes used by permanent object pool.
+[2016.04.17-18.11.24:825][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.04.17-18.11.24:832][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.17-18.11.24:919][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.04.17-18.11.24:919][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.04.17-18.11.24:998][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.17-18.11.24:998][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.17-18.11.24:998][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.17-18.11.24:998][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.17-18.11.24:998][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.17-18.11.24:998][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.17-18.11.25:520][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.17-18.11.25:622][  0]LogAssetRegistry: FAssetRegistry took 0.0201 seconds to start up
+[2016.04.17-18.11.25:756][  0]SourceControl: Info Source control is disabled
+[2016.04.17-18.11.25:757][  0]SourceControl: Info Source control is disabled
+[2016.04.17-18.11.25:764][  0]SourceControl: Info Source control is disabled
+[2016.04.17-18.11.25:772][  0]SourceControl: Info Source control is disabled
+[2016.04.17-18.11.25:951][  0]LogEngine: Initializing Engine...
+[2016.04.17-18.11.25:952][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.17-18.11.25:952][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.17-18.11.26:091][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.17-18.11.26:097][  0]LogInit: XAudio2 using 'אוזניות (3- התקן High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.17-18.11.26:104][  0]LogInit: FAudioDevice initialized.
+[2016.04.17-18.11.26:126][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/Shane/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.17-18.11.26:129][  0]LogInit: Texture streaming: Enabled
+[2016.04.17-18.11.26:150][  0]LogInit: Transaction tracking system initialized
+[2016.04.17-18.11.26:175][  0]BlueprintLog: New page: Editor Load
+[2016.04.17-18.11.26:408][  0]LocalizationService: Info Localization service is disabled
+[2016.04.17-18.11.26:680][  0]LogConsoleResponse:Display: 
+[2016.04.17-18.11.26:776][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.04.17-18.11.26:776][  0]LogCook:Display: Mobile HDR setting 1
+[2016.04.17-18.11.26:776][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.17-18.11.26:830][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/' took 0.01s
+[2016.04.17-18.11.26:830][  0]SourceControl: Info Source control is disabled
+[2016.04.17-18.11.27:403][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files (x86)/Epic Games/4.11/FeaturePacks/StarterContent.upack)
+[2016.04.17-18.11.27:758][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.04.17-18.11.27:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2016.04.17-18.11.27:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2016.04.17-18.11.28:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2016.04.17-18.11.28:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2016.04.17-18.11.28:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2016.04.17-18.11.28:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2016.04.17-18.11.28:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2016.04.17-18.11.28:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2016.04.17-18.11.28:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2016.04.17-18.11.28:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2016.04.17-18.11.28:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2016.04.17-18.11.28:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Audio/Collapse01.uasset"
+[2016.04.17-18.11.28:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Audio/Collapse02.uasset"
+[2016.04.17-18.11.28:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2016.04.17-18.11.28:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Audio/Explosion01.uasset"
+[2016.04.17-18.11.28:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Audio/Explosion02.uasset"
+[2016.04.17-18.11.29:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2016.04.17-18.11.29:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Audio/Fire01.uasset"
+[2016.04.17-18.11.29:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2016.04.17-18.11.29:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2016.04.17-18.11.29:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2016.04.17-18.11.29:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Audio/Light01.uasset"
+[2016.04.17-18.11.29:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2016.04.17-18.11.29:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Audio/Light02.uasset"
+[2016.04.17-18.11.29:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2016.04.17-18.11.30:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Audio/Smoke01.uasset"
+[2016.04.17-18.11.30:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2016.04.17-18.11.30:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2016.04.17-18.11.30:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2016.04.17-18.11.31:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2016.04.17-18.11.31:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2016.04.17-18.11.32:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2016.04.17-18.11.32:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2016.04.17-18.11.32:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Audio/Steam01.uasset"
+[2016.04.17-18.11.32:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2016.04.17-18.11.32:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2016.04.17-18.11.32:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2016.04.17-18.11.32:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2016.04.17-18.11.33:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2016.04.17-18.11.33:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2016.04.17-18.11.33:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2016.04.17-18.11.33:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2016.04.17-18.11.33:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2016.04.17-18.11.33:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2016.04.17-18.11.33:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2016.04.17-18.11.33:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2016.04.17-18.11.33:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2016.04.17-18.11.33:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2016.04.17-18.11.33:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2016.04.17-18.11.33:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2016.04.17-18.11.33:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2016.04.17-18.11.40:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2016.04.17-18.11.40:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2016.04.17-18.11.40:322][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Maps/Minimal_Default.umap"
+[2016.04.17-18.11.42:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Maps/StarterMap.umap"
+[2016.04.17-18.11.42:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2016.04.17-18.11.42:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2016.04.17-18.11.42:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2016.04.17-18.11.42:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2016.04.17-18.11.42:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2016.04.17-18.11.42:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2016.04.17-18.11.42:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2016.04.17-18.11.42:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2016.04.17-18.11.42:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2016.04.17-18.11.42:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2016.04.17-18.11.42:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2016.04.17-18.11.42:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2016.04.17-18.11.42:757][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2016.04.17-18.11.42:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2016.04.17-18.11.43:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2016.04.17-18.11.43:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2016.04.17-18.11.43:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2016.04.17-18.11.43:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Glass.uasset"
+[2016.04.17-18.11.43:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2016.04.17-18.11.43:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2016.04.17-18.11.43:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2016.04.17-18.11.43:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2016.04.17-18.11.43:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2016.04.17-18.11.43:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2016.04.17-18.11.43:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2016.04.17-18.11.43:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2016.04.17-18.11.43:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2016.04.17-18.11.43:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2016.04.17-18.11.43:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2016.04.17-18.11.43:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2016.04.17-18.11.43:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2016.04.17-18.11.44:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2016.04.17-18.11.44:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2016.04.17-18.11.44:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2016.04.17-18.11.44:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2016.04.17-18.11.44:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2016.04.17-18.11.44:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2016.04.17-18.11.44:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2016.04.17-18.11.44:351][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2016.04.17-18.11.44:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2016.04.17-18.11.44:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2016.04.17-18.11.44:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2016.04.17-18.11.44:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2016.04.17-18.11.44:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2016.04.17-18.11.44:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Particles/P_Explosion.uasset"
+[2016.04.17-18.11.44:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Particles/P_Fire.uasset"
+[2016.04.17-18.11.44:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Particles/P_Smoke.uasset"
+[2016.04.17-18.11.44:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Particles/P_Sparks.uasset"
+[2016.04.17-18.11.44:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2016.04.17-18.11.44:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2016.04.17-18.11.44:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2016.04.17-18.11.44:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2016.04.17-18.11.44:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2016.04.17-18.11.44:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2016.04.17-18.11.45:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2016.04.17-18.11.45:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2016.04.17-18.11.45:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2016.04.17-18.11.45:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2016.04.17-18.11.45:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2016.04.17-18.11.45:363][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/MaterialSphere.uasset"
+[2016.04.17-18.11.45:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/SM_Bush.uasset"
+[2016.04.17-18.11.45:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/SM_Chair.uasset"
+[2016.04.17-18.11.45:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2016.04.17-18.11.45:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/SM_Couch.uasset"
+[2016.04.17-18.11.45:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/SM_Door.uasset"
+[2016.04.17-18.11.45:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2016.04.17-18.11.45:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2016.04.17-18.11.45:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2016.04.17-18.11.45:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2016.04.17-18.11.46:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2016.04.17-18.11.46:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2016.04.17-18.11.46:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2016.04.17-18.11.46:404][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/SM_Rock.uasset"
+[2016.04.17-18.11.46:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/SM_Shelf.uasset"
+[2016.04.17-18.11.46:506][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/SM_Stairs.uasset"
+[2016.04.17-18.11.46:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/SM_Statue.uasset"
+[2016.04.17-18.11.46:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/SM_TableRound.uasset"
+[2016.04.17-18.11.46:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2016.04.17-18.11.46:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2016.04.17-18.11.46:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2016.04.17-18.11.46:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2016.04.17-18.11.46:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2016.04.17-18.11.46:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2016.04.17-18.11.47:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2016.04.17-18.11.47:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2016.04.17-18.11.47:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2016.04.17-18.11.47:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2016.04.17-18.11.47:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2016.04.17-18.11.47:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2016.04.17-18.11.47:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2016.04.17-18.11.47:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2016.04.17-18.11.47:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2016.04.17-18.11.47:401][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2016.04.17-18.11.47:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2016.04.17-18.11.47:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2016.04.17-18.11.47:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2016.04.17-18.11.47:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2016.04.17-18.11.47:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2016.04.17-18.11.47:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2016.04.17-18.11.47:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2016.04.17-18.11.47:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2016.04.17-18.11.47:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2016.04.17-18.11.47:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2016.04.17-18.11.47:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2016.04.17-18.11.47:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2016.04.17-18.11.47:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2016.04.17-18.11.47:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2016.04.17-18.11.48:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2016.04.17-18.11.48:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2016.04.17-18.11.48:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2016.04.17-18.11.49:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2016.04.17-18.11.49:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2016.04.17-18.11.50:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2016.04.17-18.11.51:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2016.04.17-18.11.51:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2016.04.17-18.11.52:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2016.04.17-18.11.53:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2016.04.17-18.11.54:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2016.04.17-18.11.55:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2016.04.17-18.11.55:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2016.04.17-18.11.55:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2016.04.17-18.11.55:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2016.04.17-18.11.55:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2016.04.17-18.11.55:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2016.04.17-18.11.55:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2016.04.17-18.11.55:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2016.04.17-18.11.55:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2016.04.17-18.11.55:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2016.04.17-18.11.55:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2016.04.17-18.11.55:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2016.04.17-18.11.55:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2016.04.17-18.11.55:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2016.04.17-18.11.55:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2016.04.17-18.11.55:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2016.04.17-18.11.56:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2016.04.17-18.11.56:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2016.04.17-18.11.56:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2016.04.17-18.11.56:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2016.04.17-18.11.56:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2016.04.17-18.11.56:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2016.04.17-18.11.56:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2016.04.17-18.11.56:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2016.04.17-18.11.58:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2016.04.17-18.11.58:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2016.04.17-18.11.58:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2016.04.17-18.11.58:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2016.04.17-18.11.58:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2016.04.17-18.11.59:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2016.04.17-18.11.59:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Door_M.uasset"
+[2016.04.17-18.11.59:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Door_N.uasset"
+[2016.04.17-18.11.59:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2016.04.17-18.11.59:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2016.04.17-18.11.59:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2016.04.17-18.11.59:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2016.04.17-18.11.59:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2016.04.17-18.11.59:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2016.04.17-18.11.59:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2016.04.17-18.11.59:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2016.04.17-18.12.00:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2016.04.17-18.12.00:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2016.04.17-18.12.00:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2016.04.17-18.12.00:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2016.04.17-18.12.01:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2016.04.17-18.12.01:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2016.04.17-18.12.01:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2016.04.17-18.12.01:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2016.04.17-18.12.01:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2016.04.17-18.12.01:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2016.04.17-18.12.01:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2016.04.17-18.12.01:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2016.04.17-18.12.02:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2016.04.17-18.12.02:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2016.04.17-18.12.02:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2016.04.17-18.12.02:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2016.04.17-18.12.02:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2016.04.17-18.12.02:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2016.04.17-18.12.02:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2016.04.17-18.12.02:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2016.04.17-18.12.02:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2016.04.17-18.12.02:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2016.04.17-18.12.02:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2016.04.17-18.12.03:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2016.04.17-18.12.03:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2016.04.17-18.12.04:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2016.04.17-18.12.04:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2016.04.17-18.12.04:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2016.04.17-18.12.04:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2016.04.17-18.12.04:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2016.04.17-18.12.04:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2016.04.17-18.12.04:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2016.04.17-18.12.04:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2016.04.17-18.12.04:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2016.04.17-18.12.04:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2016.04.17-18.12.04:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2016.04.17-18.12.04:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2016.04.17-18.12.04:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2016.04.17-18.12.04:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2016.04.17-18.12.04:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2016.04.17-18.12.04:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2016.04.17-18.12.04:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2016.04.17-18.12.04:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2016.04.17-18.12.04:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Water_M.uasset"
+[2016.04.17-18.12.04:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Water_N.uasset"
+[2016.04.17-18.12.04:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2016.04.17-18.12.04:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2016.04.17-18.12.04:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2016.04.17-18.12.04:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2016.04.17-18.12.06:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2016.04.17-18.12.06:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2016.04.17-18.12.06:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2016.04.17-18.12.06:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2016.04.17-18.12.06:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2016.04.17-18.12.06:966][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2016.04.17-18.12.07:096][  0]LogSavePackage: Save=66.96ms
+[2016.04.17-18.12.07:096][  0]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Saved/Floor_400x400CB955EA349EE1E2A0B40F8BB7B2EA4F3.tmp' to '../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2016.04.17-18.12.07:099][  0]LogSavePackage: Total save time: 71.49ms
+[2016.04.17-18.12.07:099][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2016.04.17-18.12.07:100][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2016.04.17-18.12.07:102][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.17-18.12.07:103][  0]LightingResults: New page: Lighting Build
+[2016.04.17-18.12.07:106][  0]MapCheck: New page: Map Check
+[2016.04.17-18.12.07:106][  0]LightingResults: New page: Lighting Build
+[2016.04.17-18.12.07:877][  0]LogTexture:Display: Building textures: HQ_Lightmap2_1 (AutoDXT)
+[2016.04.17-18.12.08:293][  0]LogTexture:Display: Building textures: HQ_Lightmap2_2 (AutoDXT)
+[2016.04.17-18.12.08:528][  0]LogTexture:Display: Building textures: HQ_Lightmap2_3 (AutoDXT)
+[2016.04.17-18.12.08:570][  0]LogTexture:Display: Building textures: HQ_Lightmap2_4 (AutoDXT)
+[2016.04.17-18.12.08:620][  0]LogTexture:Display: Building textures: HQ_Lightmap2_5 (AutoDXT)
+[2016.04.17-18.12.08:659][  0]LogTexture:Display: Building textures: HQ_Lightmap2_6 (AutoDXT)
+[2016.04.17-18.12.08:670][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.04.17-18.12.08:803][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.04.17-18.12.08:895][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.04.17-18.12.08:914][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2016.04.17-18.12.08:929][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2016.04.17-18.12.08:943][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2016.04.17-18.12.08:953][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2016.04.17-18.12.09:146][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2016.04.17-18.12.09:244][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2016.04.17-18.12.09:264][  0]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2016.04.17-18.12.09:282][  0]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2016.04.17-18.12.09:301][  0]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2016.04.17-18.12.09:310][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8)
+[2016.04.17-18.12.09:328][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8)
+[2016.04.17-18.12.09:343][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8)
+[2016.04.17-18.12.09:347][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8)
+[2016.04.17-18.12.09:352][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8)
+[2016.04.17-18.12.09:356][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8)
+[2016.04.17-18.12.09:554][  0]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_D (AutoDXT)
+[2016.04.17-18.12.09:847][  0]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_N (BC5)
+[2016.04.17-18.12.09:890][  0]LogTexture:Display: Building textures: T_ML_Aluminum01 (AutoDXT)
+[2016.04.17-18.12.10:121][  0]LogTexture:Display: Building textures: T_ML_Aluminum01_N (BC5)
+[2016.04.17-18.12.10:167][  0]LogTexture:Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT)
+[2016.04.17-18.12.10:400][  0]LogTexture:Display: Building textures: UE4_Mannequin__normals (BC5)
+[2016.04.17-18.12.11:001][  0]LogTexture:Display: Building textures: UE4_LOGO_CARD (AutoDXT)
+[2016.04.17-18.12.11:138][  0]LogTexture:Display: Building textures: UE4Man_Logo_N (BC5)
+[2016.04.17-18.12.11:763][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.04.17-18.12.11:870][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.17-18.12.11:879][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.17-18.12.11:934][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.326ms to complete.
+[2016.04.17-18.12.11:934][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 4.832
+[2016.04.17-18.12.12:129][  0]LogCollectionManager: Loaded 0 collections in 0.001861 seconds
+[2016.04.17-18.12.12:190][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Saved/Collections/' took 0.01s
+[2016.04.17-18.12.12:190][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/Developers/Shane/Collections/' took 0.01s
+[2016.04.17-18.12.12:190][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/Collections/' took 0.01s
+[2016.04.17-18.12.12:190][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000013 seconds
+[2016.04.17-18.12.12:198][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 1979 classes and 343 folders.
+[2016.04.17-18.12.12:205][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.04.17-18.12.12:205][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.04.17-18.12.12:206][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.04.17-18.12.12:221][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.17-18.12.12:227][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.04.17-18.12.12:260][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.17-18.12.12:327][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.04.17-18.12.12:525][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.17-18.12.12:540][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.17-18.12.12:575][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.04.17-18.12.12:575][  0]LogLoad: Full Startup: 50.69 seconds (BP compile: 0.46 seconds)
+[2016.04.17-18.12.12:575][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
+[2016.04.17-18.12.12:588][  0]LogOcInput: OculusInput pre-init called
+[2016.04.17-18.12.12:680][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.04.17-18.12.13:017][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:3).
+[2016.04.17-18.12.13:077][  1]LogAssetRegistry: Asset discovery search completed in 47.4748 seconds
+[2016.04.17-18.12.13:077][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.17-18.12.13:077][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2016.04.17-18.12.30:004][991]Cmd: SELECT NONE
+[2016.04.17-18.12.49:387][672]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.12.49:387][672]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.17-18.12.49:419][672]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 17, 2016, 11:12:49 PM)
+[2016.04.17-18.12.49:420][672]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.04.17-18.12.49:444][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024290s)
+[2016.04.17-18.12.49:445][672]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.04.17-18.12.49:445][672]LogPlayLevel: PIE: World Init took: (0.001302s)
+[2016.04.17-18.12.49:445][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025925s)
+[2016.04.17-18.12.49:466][672]LogInit: XAudio2 using 'אוזניות (3- התקן High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.17-18.12.49:473][672]LogInit: FAudioDevice initialized.
+[2016.04.17-18.12.49:608][672]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.17-18.12.49:617][672]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.04.17-21.12.49
+[2016.04.17-18.12.49:618][672]LogWorld: Bringing up level for play took: 0.007834
+[2016.04.17-18.12.49:667][672]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 9 classes and 0 folders.
+[2016.04.17-18.12.49:668][672]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.268
+[2016.04.17-18.12.49:668][672]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.13.01:361][ 67]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.13.01:425][ 67]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.13.47:427][847]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.17-18.13.47:496][847]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BP_RunCharacter.BP_RunCharacter_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2016.04.17-18.13.47:496][847]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/BP_RunCharacter.SKEL_BP_RunCharacter_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2016.04.17-18.13.47:610][847]LogSavePackage: Save=81.80ms
+[2016.04.17-18.13.47:611][847]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Saved/BP_RunCharacter95ED2060458DF2684E52ABA7265855E0.tmp' to '../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/ThirdPersonBP/Blueprints/BP_RunCharacter.uasset'
+[2016.04.17-18.13.47:612][847]LogSavePackage: Total save time: 83.25ms
+[2016.04.17-18.13.47:612][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/ThirdPersonBP/Blueprints/BP_RunCharacter.uasset
+[2016.04.17-18.13.47:627][847]LogSavePackage: Save=8.45ms
+[2016.04.17-18.13.47:627][847]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Saved/ThirdPersonCharacter33B7443943C8E7C2D29639A87343E22C.tmp' to '../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.04.17-18.13.47:628][847]LogSavePackage: Total save time: 10.63ms
+[2016.04.17-18.13.47:628][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.04.17-18.13.51:958][325]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.13.51:958][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.17-18.13.51:958][325]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 17, 2016, 11:13:51 PM)
+[2016.04.17-18.13.51:959][325]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.04.17-18.13.51:975][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016620s)
+[2016.04.17-18.13.51:976][325]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.04.17-18.13.51:976][325]LogPlayLevel: PIE: World Init took: (0.001225s)
+[2016.04.17-18.13.51:977][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018113s)
+[2016.04.17-18.13.51:977][325]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.17-18.13.51:988][325]LogInit: XAudio2 using 'אוזניות (3- התקן High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.17-18.13.51:994][325]LogInit: FAudioDevice initialized.
+[2016.04.17-18.13.52:025][325]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.17-18.13.52:033][325]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.04.17-21.13.52
+[2016.04.17-18.13.52:034][325]LogWorld: Bringing up level for play took: 0.007579
+[2016.04.17-18.13.52:036][325]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.098
+[2016.04.17-18.13.52:036][325]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.13.53:786][529]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.13.53:817][529]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.14.07:746][807]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 108 classes and 0 folders.
+[2016.04.17-18.16.01:312][957]LogEditorTransaction: Undo Delete current selection
+[2016.04.17-18.16.01:323][957]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.17-18.16.04:656][269]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.04.17-18.17.11:028][529]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.04.17-18.17.35:077][855]LogRenderer: Reallocating scene render targets to support 1208x900 (Frame:9648).
+[2016.04.17-18.17.39:770][348]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.04.17-18.18.14:017][868]BlueprintLog: New page: Compile BP_RunCharacter
+[2016.04.17-18.18.14:036][868]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.04.17-18.18.14:119][868]BlueprintEditorCompileResults: Info [0412.23] Compile of BP_RunCharacter successful! [in 102 ms]
+[2016.04.17-18.18.18:834][347]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.17-18.18.23:189][814]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.04.17-18.18.52:077][485]BlueprintLog: New page: Compile BP_RunCharacter
+[2016.04.17-18.18.52:096][485]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.04.17-18.18.52:163][485]BlueprintEditorCompileResults: Info [0450.27] Compile of BP_RunCharacter successful! [in 85 ms]
+[2016.04.17-18.19.00:208][360]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.04.17-18.19.01:165][462]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.04.17-18.19.03:006][667]LogEditorViewport: Clicking on Actor (LMB): BP_RunCharacter_C (ThirdPersonCharacter)
+[2016.04.17-18.19.15:864][684]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.19.15:864][684]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.17-18.19.15:864][684]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 17, 2016, 11:19:15 PM)
+[2016.04.17-18.19.15:865][684]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.04.17-18.19.15:885][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020326s)
+[2016.04.17-18.19.15:886][684]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.04.17-18.19.15:886][684]LogPlayLevel: PIE: World Init took: (0.001409s)
+[2016.04.17-18.19.15:887][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022126s)
+[2016.04.17-18.19.15:887][684]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.17-18.19.15:931][684]LogInit: XAudio2 using 'אוזניות (3- התקן High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.17-18.19.15:937][684]LogInit: FAudioDevice initialized.
+[2016.04.17-18.19.15:966][684]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.17-18.19.15:970][684]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.04.17-21.19.15
+[2016.04.17-18.19.15:971][684]LogWorld: Bringing up level for play took: 0.003821
+[2016.04.17-18.19.15:972][684]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.028
+[2016.04.17-18.19.15:972][684]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.19.25:063][770]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.19.25:124][770]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.20.31:374][376]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.17-18.20.35:353][847]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.04.17-18.21.16:346][260]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.04.17-18.21.22:558][999]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2016.04.17-18.21.25:718][310]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2016.04.17-18.23.08:713][769]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Engine/Transient.K2Node_VariableSet_39 or K2Node_VariableSet /Game/ThirdPersonBP/Blueprints/BP_RunCharacter.BP_RunCharacter:EventGraph.K2Node_VariableSet_39
+[2016.04.17-18.23.08:713][769]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_39.EdGraphPin_30471''
+[2016.04.17-18.23.08:713][769]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Engine/Transient.K2Node_VariableGet_62 or K2Node_VariableGet /Game/ThirdPersonBP/Blueprints/BP_RunCharacter.BP_RunCharacter:EventGraph.K2Node_VariableGet_62
+[2016.04.17-18.23.08:713][769]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_62.EdGraphPin_29987''
+[2016.04.17-18.23.08:713][769]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2772.EdGraphPin_30468''
+[2016.04.17-18.23.08:713][769]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Engine/Transient.K2Node_VariableSet_39 or K2Node_VariableSet /Game/ThirdPersonBP/Blueprints/BP_RunCharacter.BP_RunCharacter:EventGraph.K2Node_VariableSet_39
+[2016.04.17-18.23.08:714][769]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_39.EdGraphPin_30473''
+[2016.04.17-18.23.49:031][893]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2016.04.17-18.23.49:323][893]LogSavePackage: Save=261.09ms
+[2016.04.17-18.23.49:324][893]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Saved/ThirdPersonExampleMap_Auto16957795945D63CD468FACEB7C157B0DF.tmp' to '../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2016.04.17-18.23.49:324][893]LogSavePackage: Total save time: 270.72ms
+[2016.04.17-18.23.49:324][893]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2016.04.17-18.23.49:337][893]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.306
+[2016.04.17-18.23.49:337][893]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.306
+[2016.04.17-18.23.49:341][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_RunCharacter] ([1] browsable assets)...
+[2016.04.17-18.23.49:356][893]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BP_RunCharacter.BP_RunCharacter]
+[2016.04.17-18.23.49:356][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_RunCharacter]
+[2016.04.17-18.23.49:426][893]LogSavePackage: Save=68.52ms
+[2016.04.17-18.23.49:426][893]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Saved/BP_RunCharacter_Auto1F5EF7DC7403461E4D07CF2B20EC35751.tmp' to '../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_RunCharacter_Auto1.uasset'
+[2016.04.17-18.23.49:427][893]LogSavePackage: Total save time: 70.39ms
+[2016.04.17-18.23.49:427][893]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_RunCharacter_Auto1.uasset
+[2016.04.17-18.23.49:427][893]LogFileHelpers: Auto-saving content packages took 0.089
+[2016.04.17-18.23.51:973][144]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.17-18.25.36:187][470]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2016.04.17-18.25.39:012][611]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2016.04.17-18.25.45:659][399]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2016.04.17-18.30.38:670][319]BlueprintLog: New page: Compile BP_RunCharacter
+[2016.04.17-18.30.38:757][319]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2016.04.17-18.30.38:978][319]BlueprintEditorCompileResults: Info [1157.08] Compile of BP_RunCharacter successful! [in 307 ms]
+[2016.04.17-18.30.39:932][411]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.17-18.30.41:740][586]BlueprintLog: New page: Compile BP_RunCharacter
+[2016.04.17-18.30.41:799][586]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2016.04.17-18.30.41:869][586]BlueprintEditorCompileResults: Info [1159.97] Compile of BP_RunCharacter successful! [in 128 ms]
+[2016.04.17-18.30.42:943][676]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.30.42:943][676]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.17-18.30.42:943][676]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 17, 2016, 11:30:42 PM)
+[2016.04.17-18.30.42:943][676]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.04.17-18.30.42:963][676]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019751s)
+[2016.04.17-18.30.42:964][676]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.04.17-18.30.42:964][676]LogPlayLevel: PIE: World Init took: (0.001329s)
+[2016.04.17-18.30.42:965][676]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021437s)
+[2016.04.17-18.30.42:965][676]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.17-18.30.43:008][676]LogInit: XAudio2 using 'אוזניות (3- התקן High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.17-18.30.43:014][676]LogInit: FAudioDevice initialized.
+[2016.04.17-18.30.43:052][676]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.17-18.30.43:057][676]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.04.17-21.30.43
+[2016.04.17-18.30.43:057][676]LogWorld: Bringing up level for play took: 0.004075
+[2016.04.17-18.30.43:064][676]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.108
+[2016.04.17-18.30.43:065][676]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.30.58:967][410]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.30.59:043][410]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.33.30:963][943]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.17-18.34.08:877][255]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2016.04.17-18.34.09:168][255]LogSavePackage: Save=260.64ms
+[2016.04.17-18.34.09:168][255]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Saved/ThirdPersonExampleMap_Auto240B1A82D4E4BBE850D203FB0A0FDECD3.tmp' to '../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2016.04.17-18.34.09:168][255]LogSavePackage: Total save time: 269.87ms
+[2016.04.17-18.34.09:168][255]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2016.04.17-18.34.09:169][255]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.292
+[2016.04.17-18.34.09:169][255]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.292
+[2016.04.17-18.34.09:173][255]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_RunCharacter] ([1] browsable assets)...
+[2016.04.17-18.34.09:187][255]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BP_RunCharacter.BP_RunCharacter]
+[2016.04.17-18.34.09:187][255]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_RunCharacter]
+[2016.04.17-18.34.09:276][255]LogSavePackage: Save=86.84ms
+[2016.04.17-18.34.09:276][255]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Saved/BP_RunCharacter_Auto2BCECC9554781B5C21BDF34AE9D9C83E0.tmp' to '../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_RunCharacter_Auto2.uasset'
+[2016.04.17-18.34.09:276][255]LogSavePackage: Total save time: 88.78ms
+[2016.04.17-18.34.09:276][255]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_RunCharacter_Auto2.uasset
+[2016.04.17-18.34.09:276][255]LogFileHelpers: Auto-saving content packages took 0.106
+[2016.04.17-18.34.17:229][863]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.34.17:229][863]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.04.17-18.34.17:234][863]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.17-18.34.17:243][863]LogPlayLevel: [PlayLevel] Compiling BP_RunCharacter before play...
+[2016.04.17-18.34.17:325][863]LogPlayLevel: PlayLevel: Blueprint regeneration took 96 ms (1 blueprints)
+[2016.04.17-18.34.17:340][863]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 17, 2016, 11:34:17 PM)
+[2016.04.17-18.34.17:340][863]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.04.17-18.34.17:357][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017299s)
+[2016.04.17-18.34.17:358][863]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.04.17-18.34.17:358][863]LogPlayLevel: PIE: World Init took: (0.000997s)
+[2016.04.17-18.34.17:358][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018639s)
+[2016.04.17-18.34.17:377][863]LogInit: XAudio2 using 'אוזניות (3- התקן High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.17-18.34.17:383][863]LogInit: FAudioDevice initialized.
+[2016.04.17-18.34.17:410][863]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.17-18.34.17:415][863]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.04.17-21.34.17
+[2016.04.17-18.34.17:432][863]LogWorld: Bringing up level for play took: 0.021124
+[2016.04.17-18.34.17:434][863]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.527
+[2016.04.17-18.34.17:434][863]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.34.19:406][ 94]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.34.19:453][ 94]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.34.19:453][ 94]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.17-18.34.34:369][621]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.34.34:369][621]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.17-18.34.34:369][621]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 17, 2016, 11:34:34 PM)
+[2016.04.17-18.34.34:369][621]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.04.17-18.34.34:386][621]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016608s)
+[2016.04.17-18.34.34:387][621]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.04.17-18.34.34:387][621]LogPlayLevel: PIE: World Init took: (0.001136s)
+[2016.04.17-18.34.34:387][621]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018115s)
+[2016.04.17-18.34.34:387][621]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.17-18.34.34:405][621]LogInit: XAudio2 using 'אוזניות (3- התקן High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.17-18.34.34:411][621]LogInit: FAudioDevice initialized.
+[2016.04.17-18.34.34:442][621]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.17-18.34.34:450][621]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.04.17-21.34.34
+[2016.04.17-18.34.34:451][621]LogWorld: Bringing up level for play took: 0.007719
+[2016.04.17-18.34.34:453][621]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.492
+[2016.04.17-18.34.34:453][621]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.34.35:365][724]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.34.35:407][724]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.35.04:948][520]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.17-18.35.09:418][960]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.35.09:418][960]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.04.17-18.35.09:423][960]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2016.04.17-18.35.09:433][960]LogPlayLevel: [PlayLevel] Compiling BP_RunCharacter before play...
+[2016.04.17-18.35.09:516][960]LogPlayLevel: PlayLevel: Blueprint regeneration took 97 ms (1 blueprints)
+[2016.04.17-18.35.09:531][960]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 17, 2016, 11:35:09 PM)
+[2016.04.17-18.35.09:531][960]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.04.17-18.35.09:548][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016103s)
+[2016.04.17-18.35.09:548][960]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.04.17-18.35.09:549][960]LogPlayLevel: PIE: World Init took: (0.001125s)
+[2016.04.17-18.35.09:549][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017613s)
+[2016.04.17-18.35.09:567][960]LogInit: XAudio2 using 'אוזניות (3- התקן High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.17-18.35.09:573][960]LogInit: FAudioDevice initialized.
+[2016.04.17-18.35.09:602][960]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.17-18.35.09:607][960]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.04.17-21.35.09
+[2016.04.17-18.35.09:608][960]LogWorld: Bringing up level for play took: 0.004175
+[2016.04.17-18.35.09:609][960]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.353
+[2016.04.17-18.35.09:609][960]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.35.11:742][211]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.35.11:789][211]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.35.11:789][211]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.17-18.37.43:316][591]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2016.04.17-18.37.43:324][591]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.17-18.37.43:394][591]BlueprintEditorCompileResults: Info [1581.48] Compile of ThirdPersonExampleMap successful! [in 77 ms]
+[2016.04.17-18.37.45:668][767]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.37.45:668][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.17-18.37.45:668][767]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 17, 2016, 11:37:45 PM)
+[2016.04.17-18.37.45:668][767]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.04.17-18.37.45:689][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021023s)
+[2016.04.17-18.37.45:690][767]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.04.17-18.37.45:690][767]LogPlayLevel: PIE: World Init took: (0.001239s)
+[2016.04.17-18.37.45:690][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022563s)
+[2016.04.17-18.37.45:709][767]LogInit: XAudio2 using 'אוזניות (3- התקן High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.17-18.37.45:715][767]LogInit: FAudioDevice initialized.
+[2016.04.17-18.37.45:746][767]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.17-18.37.45:754][767]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.04.17-21.37.45
+[2016.04.17-18.37.45:755][767]LogWorld: Bringing up level for play took: 0.007804
+[2016.04.17-18.37.45:757][767]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.207
+[2016.04.17-18.37.45:758][767]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.37.50:405][317]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.37.50:451][317]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.39.36:712][779]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.39.36:712][779]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.04.17-18.39.36:717][779]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.17-18.39.36:727][779]LogPlayLevel: [PlayLevel] Compiling BP_RunCharacter before play...
+[2016.04.17-18.39.36:824][779]LogPlayLevel: PlayLevel: Blueprint regeneration took 112 ms (2 blueprints)
+[2016.04.17-18.39.36:826][779]LogPlayLevel: [PlayLevel] Compiling ThirdPersonExampleMap before play...
+[2016.04.17-18.39.36:884][779]LogPlayLevel: PlayLevel: Blueprint regeneration took 172 ms (2 blueprints)
+[2016.04.17-18.39.36:901][779]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 17, 2016, 11:39:36 PM)
+[2016.04.17-18.39.36:901][779]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.04.17-18.39.36:920][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019093s)
+[2016.04.17-18.39.36:921][779]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.04.17-18.39.36:921][779]LogPlayLevel: PIE: World Init took: (0.000984s)
+[2016.04.17-18.39.36:921][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020444s)
+[2016.04.17-18.39.36:940][779]LogInit: XAudio2 using 'אוזניות (3- התקן High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.17-18.39.36:946][779]LogInit: FAudioDevice initialized.
+[2016.04.17-18.39.36:978][779]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.17-18.39.36:983][779]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.04.17-21.39.36
+[2016.04.17-18.39.36:984][779]LogWorld: Bringing up level for play took: 0.004238
+[2016.04.17-18.39.36:988][779]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.021
+[2016.04.17-18.39.36:988][779]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.39.41:393][301]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.39.41:449][301]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.17-18.39.41:449][301]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.17-18.40.03:527][647]LogSavePackage: Save=272.68ms
+[2016.04.17-18.40.03:527][647]LogSavePackage: Moving '../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Saved/ThirdPersonExampleMap6DD90503460F8EDF754109947A2142F8.tmp' to '../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.04.17-18.40.03:529][647]LogSavePackage: Total save time: 283.92ms
+[2016.04.17-18.40.03:529][647]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Shane/Documents/GitHub/myUEProjects/EndlessRunner/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.04.17-18.40.03:541][647]
